@@ -1,0 +1,34 @@
+body {
+  background: url("../images/hero3.jpg");
+  background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	margin-top: 300px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 25px;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	margin-top: 100px;
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.5em;
+	color: white;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}

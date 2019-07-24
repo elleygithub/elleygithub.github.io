@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Oswald:500&display=swap');
+
+body {
+	background-color: #1B0140;
+	color: white;
+}
+
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+
+h2{
+	font-size: 26px;
+	letter-spacing: 1px;
+}
+
+h3{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+p {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.9em;
+}
+
+nav a {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: white;
+}
+
+a {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: white;
+}
+
+
+.intro {
+  background: url("../images/hero.jpg");
+  background-size: cover;
+}
+
+
+#logo {
+	font-size: 22px;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+}
+
+
+#slogan {
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+}

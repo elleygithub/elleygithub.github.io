@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Scope+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Sansita:700i&display=swap');
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #1B0140;
 	font-size: 16px;
@@ -9,14 +15,19 @@ body {
 	color: white;
 }
 
+header {
+	padding: 2em 0 1.5em;
+}
+
 footer {
-	padding: 50px;
+	padding: 2em 0;
 }
 
 h1 {
 	font-family: 'Shrikhand', cursive;
 	font-size: 2.5em;
 	letter-spacing: 3px;
+	margin: 0 0 0.8em;
 }
 
 h2, h3{
@@ -26,20 +37,23 @@ h2, h3{
 
 h2{
 	font-size: 1.7em;
+	margin: 2em 0 1em;
 }
 
 h3{
 	font-size: 1.2em;
+	margin: 1em 0 0.7em;
 }
 
 p {
 	font-family: 'Scope One', serif;
 	line-height: 1.9em;
+	margin: 0 0 0.7em;
 }
 
 nav a{
-	padding: 0 3em;
-	margin: 0 auto;
+	padding: 0 1em;
+	margin: 0 2em;
 }
 
 a {
@@ -48,15 +62,21 @@ a {
 	color: white;
 }
 
+form {
+	font-family: 'Scope One', serif;
+}
+
 .intro {
   background: url("../images/hero.jpg") no-repeat center center scroll;
   background-size: cover;
-  height: 750px;
+  height: 90vh;
+  text-align: left;
+  padding: 15em;
   margin: 0 0 5em;
 }
 
 .product {
-	margin: 4em;
+	margin: 3em 0;
 }
 
 .about {
@@ -65,18 +85,19 @@ a {
 }
 
 .coupon {
-	margin: 4em 0 0;
+	margin: 4em 0 4em;
 }
-
 
 #logo {
 	font-size: 1.4em;
 	font-family: 'Shrikhand', cursive;
 	letter-spacing: 1px;
+	margin: 0 0 0.7em;
 }
 
 #slogan {
 	font-size: 22px;
 	font-family: 'Scope One', serif;
 	letter-spacing: 1px;
+	margin: 0 0 0.5em;
 }

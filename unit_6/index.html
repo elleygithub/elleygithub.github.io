@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<title>Prismatic Spectrum</title>
-		<link rel=“stylesheet” type=“text/css” href=“css/reset.css”>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
+
 	<body>
 		<header>
 			<p id="logo">Prismatic Spectrum</p>
@@ -24,7 +24,7 @@
 			<a href="#">SHOP THE LATEST &gt;</a>
 		</section>
 
-		<section class="productshowcase">
+		<section class="productshowcase clearfix">
 			<h2>Products</h2>
 
 			<section class="product">
@@ -84,21 +84,22 @@
 			</section>
 		</section>
 
-		<section class="about">
-			<h2>Who We Are</h2>
-			<p>We are a store that sells products for the LGBTQ+ community and their allies. We recognize the wide spectrum of gender identities and provide products that encourage the visibility and self-expression of all LGBTQ+ people.</p>
-			<a href="#">READ MORE &gt;</a>
-		</section>
+		<section id="two_column" class="clearfix">
+			<section class="coupon">
+				<h2>Sign Up for Our Newsletter and Get 15% Off</h2>
+				<form action="#">
+					<label for="newsletteremail">Your Email:</label>
+	  				<input type="email" name="email">
+	  				<input type="submit" value="Sign Up">
+				</form>
+			</section>		
 
-		<section class="coupon">
-			<h2>Sign Up for Our Newsletter and Get 15% Off</h2>
-			<form action="#">
-				<label for="newsletteremail">Your Email:</label>
-  				<input type="email" name="email">
-  				<input type="submit" value="Sign Up">
-			</form>
+			<section class="about">
+				<h2>Who We Are</h2>
+				<p>We are a store that sells products for the LGBTQ+ community and their allies. We recognize the wide spectrum of gender identities and provide products that encourage the visibility and self-expression of all LGBTQ+ people.</p>
+				<a href="#">READ MORE &gt;</a>
+			</section>
 		</section>
-
 		<footer>
 			<p>Contact me: <a href="mailto:elleytv@gmail.com">elleytv@gmail.com</a></p>
 			<a href="#"><img src="images/facebook.png" alt="Facebook Logo" title="Facebook Link"></a>

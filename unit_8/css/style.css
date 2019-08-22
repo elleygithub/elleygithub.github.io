@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Scope+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sansita:700i&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #1B0140;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+}
+
+header {
+	padding: 2em 0 1.5em;
+	line-height: 1em;
+}
+
+label {
+	font-family: 'Scope One', serif;
+	text-decoration: none;
+	color: white;
+	display: none;  
+}
+
+footer {
+	padding: 2em 2em;
+}
+
+h1 {
+	font-family: 'Shrikhand', cursive;
+	font-size: 2.5em;
+	letter-spacing: 3px;
+	margin: 0 0 0.8em;
+}
+
+h2, h3{
+	font-family: 'Sansita', sans-serif;
+	letter-spacing: 1px;
+}
+
+h2{
+	font-size: 1.7em;
+	margin: 2em 0 1.5em;
+}
+
+h3{
+	font-size: 1.2em;
+	margin: 1em 0 0.7em;
+}
+
+p {
+	font-family: 'Scope One', serif;
+	line-height: 1.9em;
+	margin: 0 0 0.7em;
+}
+
+
+nav a{
+	padding: 0 1em;
+	margin: 0 1em;
+	float: left;
+	line-height: 1.5em;
+}
+
+a {
+	font-family: 'Scope One', serif;
+	text-decoration: none;
+	color: white;
+}
+
+form {
+	font-family: 'Scope One', serif;
+}
+
+.intro {
+  background: url("../images/hero.jpg") no-repeat center center scroll;
+  background-size: cover;
+  height: 85vh;
+  text-align: left;
+  padding: 15em;
+  margin: 0 0 5em;
+}
+
+.productshowcase {
+	margin: 2em auto;
+}
+
+.product {
+    padding: 0 0 2em;
+    float: left;
+    width: 25%;
+}
+
+.product img{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+.coupon {
+    margin: 6em auto;
+    width: 57%;
+}
+
+
+.about {
+    margin: 6em auto;
+    width: 40%;
+}
+
+
+.socialmedia {
+	padding: 0 1em;
+	margin: 0 0 3em
+	display
+}
+
+#logo {
+	font-size: 1.4em;
+	font-family: 'Shrikhand', cursive;
+	letter-spacing: 1px;
+	margin: 0 5em 0 3em;
+	float: left;
+	line-height: 1em;
+}
+
+#toggle {
+	display: none;
+}
+
+#slogan {
+	font-size: 1.4em;
+	font-family: 'Scope One', serif;
+	letter-spacing: 1px;
+	margin: 0 0 0.5em;
+}
+
+#footernav {
+	float: left;
+}
+
+#footertext {
+	float: right;
+}
+
+@media only screen and (max-width: 1170px) {
+	nav a {
+	padding: 0 1em;
+	margin: 0 0.5em;
+	}
+	.intro {
+  		height: 80vh;
+	}
+}
+
+@media only screen and (max-width: 1075px) {
+	nav a {
+	padding: 0 0.7em;
+	margin: 0 0.5em;
+	}
+	.intro {
+  		height: 75vh;
+	}
+}
+
+@media only screen and (max-width: 1020px) {
+	#logo {;
+		margin: 0 3em 0 3em;
+	}
+	.intro {
+  		height: 70vh;
+	}
+}
+
+@media only screen and (max-width: 971px) {
+	#logo {;
+		margin: 0 2em 0 1.8em;
+	}
+	#product7 {
+		display: none;
+	}
+	#product8 {
+		display: none;
+	}
+	.product {
+    	width: 33.33%;
+	}
+	.intro {
+  		height: 65vh;
+	}
+}
+
+@media only screen and (max-width: 923px) {
+	#logo {
+		font-size: 1.2em;
+	}
+	h1 {
+		font-size: 2.3em;
+	}
+	#slogan {
+		font-size: 1.2em;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+	h3{
+		font-size: 1em;
+	}
+	.intro {
+  		height: 60vh;
+	}
+}
+
+@media only screen and (max-width: 923px) {
+	label {
+		display: block;
+	}
+	nav {
+		display: none;
+	}
+	#toggle:checked + nav { 
+		display: block;
+	}
+	.intro {
+  		height: 50vh;
+	}
+}	
+
+@media only screen and (max-width: 657px) {
+	.product {
+    	width: 50%;
+	}
+	#product5 {
+		display: none;
+	}
+	#product6 {
+		display: none;
+	}
+	.intro {
+  		height: 30vh;
+	}
+	.about {
+    	width: 60%;
+	}
+	.coupon {
+    	width: 65%;
+	}
+}	
+
+@media only screen and (max-width: 500px) {
+	#product3 {
+		display: none;
+	}
+	#product4 {
+		display: none;
+	.intro {
+  		height: 20vh;
+	}
+	.about {
+    	width: 90%;
+	}
+	.coupon {
+    	width: 85%;
+	}
+}
